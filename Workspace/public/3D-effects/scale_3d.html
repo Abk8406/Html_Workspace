@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scale 3d</title>
+    <style>
+        .container{
+            width: 200px;
+            height: 100px;
+            border: 5px solid darkcyan;
+            background-size: 100px 100px;
+            background-repeat:no-repeat;
+            background-image: url(../../assest/images/shoes3.jpg);
+            transition:4s;  
+            margin: 20px;
+        
+        }  
+        
+        img{
+         height: 100px;
+         width: 100px;
+         transition: 2s; 
+         opacity:0.9; 
+         border:1 dotted darkcyan;
+        }
+        .transfrom-effect{
+          transform: scale3d(1,1,1);
+            transition: 2s;
+
+        }
+        .transfrom-effect:hover{
+            transition:2s;
+            transform: scale3d(1.5,1.5,1.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <marquee onmouseover="this.stop()" onmouseout="this.start()">
+        <img class="transfrom-effect" src="../../assest/images/shoes2.jpg">
+        <img class="transfrom-effect" src="../../assest/images/shoes5.jpg">
+        <img class="transfrom-effect" src="../../assest/images/shoes6.jpg">
+      </marquee>
+   </div>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>    Style    </title>
+       <style>
+        input:enabled{
+            background-color: blue;
+            color: black;
+            border: 2px solid green;
+        }
+        input:required{
+            background-color:  red;
+            color: black;
+            border: 2px solid  blue;
+
+        }
+        input:valid{
+            background-color: purple;
+            color: olivedrab;
+            border: gold;
+
+        }
+        input:optional{
+            color: goldenrod;
+            background-color: lime;
+        }
+    
+        input:valid+span{
+            display: none;
+        }
+        
+       
+        
+      
+       
+       
+         </style>
+         <body>
+             <form>
+             <fieldset>
+                 <legend>FORM</legend>
+            <h2> UserName</h2>
+                <input type="text" placeholder="UserName" pattern="\d" name="submit" required>
+                <span>Name in Block letter</span><br><br>
+                <button>Submit</button>
+        
+        
+        
+            </fieldset>
+        </form>
+        </body>
+</html>

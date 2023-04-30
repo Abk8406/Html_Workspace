@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>selector</title>
+        <style>
+            a:link{
+                color: orange;
+                text-decoration:none;
+                font-size: 30px;
+            }
+            a:visited{
+                color: lime;
+            }
+            a:active{
+                color: red;
+            }
+            a:hover{
+                text-decoration:underline;
+
+            }
+            img{
+                width: 100px;
+                height: 100px;
+                transition: 10s;
+            }
+            img:hover{
+                width: 200px;
+                transition: 1s;
+                height: 200px;
+            }
+            input:focus{
+                border: 2px solid red;
+                box-shadow: 2px 2px 20px red;
+            }
+            input~span{
+               display: none
+               
+            }
+            input:focus~span{
+                display: inline;
+            }
+         div{
+             margin: 30px;
+         }
+
+
+
+        </style>
+    </head>
+    <body class="container">
+       <div>
+        <label>Name</label>
+    <div>
+        <input type="text">
+        <span>Name 4 Charts</span>
+    </div>  
+    </div>
+    <div>
+        <img src="../../assest/images/fashion.png">
+    </div>
+    <div>
+        <a href="../index.html">HOME</a>
+        <a href="../ShoppingSite/Assignment_1_HTML_Code.html">Shopping</a>
+        <a href="../amazonsample.html"> Amazon</a>
+    
+    </div>
+
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+                 element
+        </title>
+        <style>
+            ul{
+                display: flex;
+                list-style: none;
+            }
+            li::before{
+                content: "->";
+            }
+            li:first-child::before{
+                content: "Side map==>";
+            }
+       
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>HOME</li>
+            <li>About</li>
+            <li>Contant</li>
+        </ul>
+    </body>
+</html>

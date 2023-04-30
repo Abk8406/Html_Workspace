@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>
+            Inter Document Links
+        </title>
+        <style>
+            .container{
+                display: grid;
+                grid-template-columns: 3fr 9fr;
+            }
+            iframe{
+                border: none;
+            }  
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <ol class="leftpanle">
+                <li><a href="https://www.amazon.in">Amazon shopping</a></li>
+                <li><a href="./Assignment_1_HTML_Code.html"  target="frambody">NavBar Example</a></li>
+                <li><a href="../src/pdf/motivation PDF.pdf"  target="frambody">Motivation PDF</a></li>
+                <li><a href="../src/doucments/HTML DOM.docx"  target="frambody">Web technologies  Document</a></li>
+                <li><a href="maito:hr@nareshrIT.in">hr@nareshIT.in</a></li>
+                <li><a href="tel:+918786543210">Call: +918786854310</a></li>
+                <li><a href="skype:nareshit@outlook">Sky.peus</a></li>
+                <li><a href="https://www.youtube.com/embed/9iTssaj3tkQ" target="frambody"> youtube</a></li>
+                <li><a href="javascript:window.open('../assest/images/footwear.jpg','nike','width=400 height=400')">NIKE</a></li>
+            </ol>    
+              <div class="rightpanle">
+                <iframe name="frambody" width="100%" height="600px"> NavBar</iframe>
+              </div>  
+        </div>
+    </body>
+</html>

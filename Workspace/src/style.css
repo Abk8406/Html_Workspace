@@ -1,0 +1,72 @@
+#control-body {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#container-top-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+#background-img {
+  font-family: arial;
+  background-image: url(../assest/images/netflix2.png);
+  background-size: 100%;
+  color: white;
+}
+
+.para-1 {
+  font-size: 30px;
+}
+
+.mini-content {
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 15px;
+  height: 30px;
+  width: 120px;
+  border-radius: 4px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+select {
+  height: 35px;
+  width: 110px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 7px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+#email {
+  height: 60px;
+  width: 450px;
+  padding-left: 10px;
+}
+#get {
+  height: 60px;
+  text-align: center;
+  width: 200px;
+  font-size: 25px;
+}
+.heading-1 {
+  font-size: 50px;
+}
+#font {
+  margin-top: 20px;
+  margin-left: 40px;
+  color: red;
+  font-weight: 550;
+}

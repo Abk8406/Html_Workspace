@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+    </head>
+    <style>
+        div{
+            border: 3px solid black;
+            position: absolute;
+        }
+      
+       .blue-box{
+          background-color: blue;
+          height: 100px;
+          width: 400px;
+          z-index: 2;
+          top: 100px;
+       }
+       .red-box{
+          background-color: red;
+           height: 500px;
+           z-index: 3;
+           left: 200px;
+           width: 100px;
+       } 
+       .yellow-box{
+           background-color: yellow;
+           height: 300px;
+           z-index: 1;
+           width: 400px;
+          
+       }
+    </style>
+    <body>
+        <div class="blue-box">
+            <h1>header</h1>
+
+        </div>
+      <div class="red-box">
+        <h1>body</h1>
+      </div>
+     
+      <div class="yellow-box">
+            <h1>footer</h1>
+      </div>
+    </body>
+</html>

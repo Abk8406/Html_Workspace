@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<style>
+    body {
+        overflow: hidden;
+        background-image: linear-gradient(, red, blue);
+
+    }
+
+
+    ul {
+        list-style: none;
+        background-color: darkcyan;
+        border: 2px solid darkcyan;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
+    }
+
+    @media screen and (orientation:landscape) {
+        li {
+            margin-right: 30px;
+            display: inline;
+
+
+        }
+
+        ul {
+            margin-top: -40px;
+            height: 30px;
+            width: 700px;
+            transition: 3s;
+
+        }
+
+        ul:hover {
+            transition: 3s;
+            margin-top: -10px;
+            background-color: black;
+            color: blue;
+
+        }
+
+
+    }
+
+    @media screen and (orientation:portrait) {
+        li {
+            margin-bottom: 20px;
+            padding-left: 10px;
+        }
+
+        .itmes-side {
+            display: none;
+        }
+
+        ul {
+            margin-right: -50px;
+            display: block;
+            width: 50px;
+            float: right;
+            text-align: center;
+            transition: 2s;
+        }
+
+        ul:hover {
+            transition: 2s;
+            margin-right: -10px;
+            background: blue;
+            color: white;
+        }
+
+    }
+
+    @media screen and (min-width:400px) {
+        body {
+
+            background: rgb(63, 94, 251);
+            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+        }
+
+    }
+
+    @media screen and (mix-width :500px) {
+        body {
+
+            background-image: linear-gradient(to right, #870000, #190a05);
+        }
+    }
+</style>
+
+<body>
+
+</body>
+<nav>
+    <ul>
+        <li><span class="bi-facebook"><span class="itmes-side">Facebook</span></li>
+        <li><span class="bi-instagram"><span class="itmes-side">Instagram</span></li>
+        <li><span class="bi-twitter"><span class="itmes-side">Twitter</span></li>
+        <li><span class="bi-snapchat"><span class="itmes-side">Snapchart</span></li>
+        <li><span class="bi-telegram"><span class="itmes-side">Telegram</span></li>
+    </ul>
+</nav>
+<div></div>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Instagram login page
+        </title>
+        <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap-grid.css">
+        <style>
+            body{
+                background-color: #FAFAFA;
+            }
+            #main{
+                background-color: #FAFAFA;
+                 display: flex;
+                 justify-content: center;
+                 flex-direction: column;
+                 align-items: center;
+                 font-family: arial;
+             }
+           
+            .container{
+                 margin-top: 35px;
+                 background-color: white;
+                 width: 347px;
+                 height: 378px;
+                 border: 1px solid lightgray;
+            }            
+           .top-pannle{
+                
+               text-align: center;   
+            }
+            input,button{
+                border-radius: 4px;
+                border-color: lightgray;
+            }
+
+            input{
+              height: 38px;
+               width: 266px;
+               border: 1px solid lightgray; 
+            }
+           
+          
+            #password{
+                margin-top: 5px;
+            }
+
+            button{
+                margin-top: 20px;
+                height: 30px;
+                width: 266px;
+                background-color: #B2DFFC;
+                border: none;
+                color: white;
+            }
+            #image{
+                width: 347px;
+                height: 100px;
+            }
+            .topic{
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+            hr{
+                width: 80px;
+            }
+
+            .down-pannle{
+                background-color: white;
+                border: 1px solid lightgray;
+                height: 70px; 
+                width:  375px;
+                margin-top: 8px;
+                     
+            }
+
+            #account{
+                text-align: center;
+                padding: 25px;
+                align-items: center;
+                
+            }
+
+            a{
+                text-decoration: none;
+                font-weight: bold; 
+                color: #385185;    
+            }
+            #a-first{
+                margin-bottom: 20px;
+
+            }
+            .s{
+                font-size: 12px;
+
+            }
+
+            #sign{
+                font-weight: bold;
+            }
+            span{
+                background-color: white;
+                color: #385185;
+            }
+
+            .last-down-pannle{
+                margin-top: 10px;
+            }
+            .main-last{
+                width:  347px;
+                height: 30px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+
+
+    <div id="main">
+        
+        <div class="container">
+            <div class="top-pannle">
+               <div >
+                    <img id="image" src="../../assest/amazon/instagramlogo1.PNG">
+               </div>
+            
+                <form>
+                    <input type="email"  placeholder="Phone number, Username, or email"><br>
+                  
+                   <input type="password" id="password" placeholder="Password"><br>
+
+                    <button>Log In</button>
+                </form>
+                <div class="topic">
+                    <hr>
+                    OR
+                    <hr>
+                </div><br><br>
+
+            
+              
+                 <span class="bi bi-facebook"></span>   <a id="a-first" href="#">Log in with Facebook</a>
+
+                 <br><br>
+
+                <a href="#" class="s">Forgot Password?</a>
+           </div>
+        </div>    
+       
+       
+
+            <div class="down-pannle">
+               <div id="account">
+                  Don't have an account?<a id="sign" href="#">Sign up</a>
+               </div>
+            </div>
+
+
+            <div class="last-down-pannle">
+               <p> Get the app.</p> 
+            </div>
+            
+            <div class="main-last">
+                <img src="../../assest/amazon/instagram-lastlogo.PNG">
+            </div>
+  
+    </div>
+  </body>
+</html>

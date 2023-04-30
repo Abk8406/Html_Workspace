@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Side</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header {
+            text-align: center;
+            background-color: chartreuse;
+            color: white;
+            height: 60px;
+            margin-top: -20px;
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: black;
+            color: white;
+            height: 30px;
+            text-align: center;
+            position: 10px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+        }
+
+        body {
+            background-color: whitesmoke;
+        }
+
+        iframe {
+            height: 560px;
+            width: 100%;
+            border: none;
+        }
+
+        li {
+            background-color: rgb(111, 111, 163);
+            list-style-type: none;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 170px;
+            text-align: center;
+            padding: 5px;
+            margin-bottom: 40px;
+            margin-left: -30px;
+        }
+
+        li:hover {
+            background-color: crimson;
+        }
+
+        span {
+            font-size: 30px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+
+            color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2><span class="bi bi-cart4">Shopping</span></h2>
+    </header>
+    <section>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="./Assignment_1_HTML_Code.html" target="FrameBody"><span
+                                class="bi bi-house">Home</span></a></li>
+                    <li><a href="./electronic.html" target="FrameBody"><span
+                                class="bi bi-forward-fill">Eletronics</span></a></li>
+                    <li><a href="./netflix2 - Copy.html" target="FrameBody"><span
+                                class="bi bi-forward-fill">Netflix</span></a></li>
+                    <li><a href="./fashion.html" target="FrameBody"><span class="bi bi-forward-fill">Fasion</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <iframe name="FrameBody" src="../Assignment_1_HTML_Code.html"></iframe>
+            </main>
+        </div>
+    </section>
+    <footer>
+        &copy;Copy-right 2021
+    </footer>
+
+</body>
+
+</html>
